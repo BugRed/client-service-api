@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ClientapiApplication",
+            "request": "launch",
+            "mainClass": "com.redbug.clientdemo.clientapi.ClientapiApplication",
+            "projectName": "clientdemo"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ClientdemoApplication<clientdemo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.redbug.clientdemo.clientdemo.ClientdemoApplication",
+            "projectName": "clientdemo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
